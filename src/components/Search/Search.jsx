@@ -22,7 +22,6 @@ const Search = () => {
     const addCityToState = (city) => {
         dispatch(addCity(city, citiesLength))
         setSearchValue("")
-        debugger
         history.push(`/${city.name}`)
     }
 
